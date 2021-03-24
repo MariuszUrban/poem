@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan Kasprowicz Poetry</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets> </a-assets>
+      <a-text
+        id="poem"
+        value="here i'll put a poem"
+        color="black"
+        text="width: 30; align: center; alphaTest: 1.49; height: 10; letterSpacing: 0.65; lineHeight: -0.05; side: double; wrapCount: 18.32"
+        position="0.36 2.65 -14.25"
+        gps-entity-place="latitude: 52.80178558287894,; longitude: 18.262110512666112"
+      ></a-text>
+
+      <!-- <a-plane
+        rotation="-90 0 0"
+        id="plane"
+        color="green"
+        height="2000"
+        width="2000"
+      ></a-plane>
+      <a-sky id="sky" color="#CCCCCC"></a-sky> -->
+      <a-camera
+        id="camera"
+        position="0.23077 2.37987 -14.42162"
+        camera=""
+        rotation="2.0610100000000005 -207.76421 0"
+        look-controls=""
+        wasd-controls=""
+        data-aframe-inspector-original-camera=""
+        gps-camera
+        rotation-reader
+      ></a-camera>
+    </a-scene>
+  </body>
+</html>
